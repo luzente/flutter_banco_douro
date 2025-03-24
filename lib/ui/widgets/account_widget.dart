@@ -10,7 +10,8 @@ class AccountWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 128,
-      padding: EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
         color: AppColor.lightOrange,
         borderRadius: BorderRadius.circular(12),
